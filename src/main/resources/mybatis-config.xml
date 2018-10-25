@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org/DTD Config 3.0/EN" "http://mybatis.org/dtd/mybatis-3-config.dtd" >
+<configuration>
+	<typeAliases>
+		<typeAlias alias="Board" type="echo.myecho.dto.BoardDTO" />
+		<typeAlias alias="Files" type="echo.myecho.dto.FilesDTO" />
+		<typeAlias alias="BoardComment"
+			type="echo.myecho.dto.BoardCommentDTO" />
+		<typeAlias alias="Member" type="echo.myecho.dto.MemberDTO" />
+	</typeAliases>
+</configuration>
